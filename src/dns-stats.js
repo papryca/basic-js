@@ -28,7 +28,7 @@ function getDNSStats(domains) {
     domains.forEach(function (item, index) {
         let u = item.split('.').reverse();
         let world = '';
-        let  n = 0;
+
         for (let value of u) {
             console.log(value)
             world = world + `.${value}`

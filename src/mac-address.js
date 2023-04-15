@@ -25,8 +25,8 @@ function isMAC48Address( n) {
 if (u.length!==2){
   return false
     }
-    const isHex = /^[0-9A-Fa-f]{2}$/.test(u);
-    if (!isHex) {
+    const tr = /^[0-9A-Fa-f]{2}$/.test(u);
+    if (!tr) {
       return false;
     }
   }

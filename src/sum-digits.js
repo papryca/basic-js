@@ -28,4 +28,3 @@ function getSumOfDigits(n) {
 module.exports = {
     getSumOfDigits
 };
-console.log(getSumOfDigits(91))

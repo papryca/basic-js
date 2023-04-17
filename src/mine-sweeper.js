@@ -72,8 +72,3 @@ function minesweeper(matrix) {
 module.exports = {
     minesweeper
 };
-console.log(minesweeper([
-    [true, false, false],
-    [false, true, false],
-    [false, false, false]
-]))

@@ -61,4 +61,3 @@ function transform(arr) {
 module.exports = {
     transform
 };
-console.log(transform(['--discard-prev', 1, 2, 3]))

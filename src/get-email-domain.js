@@ -24,4 +24,3 @@ function getEmailDomain(email ) {
 module.exports = {
   getEmailDomain
 };
-console.log(getEmailDomain('very.unusual.@.unusual.com@usual.com'))

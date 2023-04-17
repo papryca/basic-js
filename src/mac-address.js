@@ -35,4 +35,3 @@ if (u.length!==2){
 module.exports = {
   isMAC48Address
 };
-console.log(isMAC48Address('00-1B-63-84-45-E6'))

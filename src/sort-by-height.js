@@ -21,4 +21,3 @@ function sortByHeight(arr) {
 module.exports = {
   sortByHeight
 };
-console.log(sortByHeight([ 11, 16, 2, 2, 4, 9 ] ))

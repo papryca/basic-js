@@ -41,4 +41,3 @@ return b;
 module.exports = {
     deleteDigit
 };
-console.log(deleteDigit(342))

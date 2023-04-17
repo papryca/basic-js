@@ -35,4 +35,3 @@ module.exports = {
 };
 const directMachine = new VigenereCipheringMachine();
 const reverseMachine = new VigenereCipheringMachine(false);
-console.log(directMachine.encrypt('attack at dawn!', 'alphonse'))

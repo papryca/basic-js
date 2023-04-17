@@ -63,5 +63,3 @@ module.exports = {
 const objWithSpecificCoercion = {
     [Symbol.toPrimitive]: hint => hint !== 'number' ? 'STRING_OR_DEFAULT' : 'NUMBER'
 };
-
-console.log(repeater(objWithSpecificCoercion, { repeatTimes: 3, separator: '??? ', addition: false, additionRepeatTimes: 2, additionSeparator: '!!!' }))

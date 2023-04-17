@@ -40,4 +40,3 @@ function renameFiles(names) {
 module.exports = {
     renameFiles
 };
-console.log(renameFiles(["file", "file", "image", "file(1)", "file"]))

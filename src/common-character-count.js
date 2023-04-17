@@ -25,4 +25,3 @@ if(s2.includes(s1[i])){
 module.exports = {
   getCommonCharacterCount
 };
-console.log(getCommonCharacterCount("aabcc","adcaa" ))
